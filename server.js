@@ -38,7 +38,7 @@ var server = http.createServer(function (request, response) {
   }
   response.setHeader(
     'Content-Type',
-    `${fileTypes[suffix] || 'text/html'};charset=utf-8` //这里的类型说明可否改一改
+    `${fileTypes[suffix] || 'text/html'};charset=utf-8`
   )
   let content
   try {
